@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: 8e434945de895044390968953d4dfdcc
+  - enabled: 1
+    path: Assets/Scenes/EnsiklopediaMenu.unity
+    guid: 91c228b1a599b9242bba3c3e4496d76c
+  - enabled: 1
+    path: Assets/Scenes/ARCamera.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Bird.unity
+    guid: db49afea05f49ff489069df73151ecef
+  - enabled: 1
+    path: Assets/Scenes/Elephant.unity
+    guid: ed60ed63ee20feb43b8e4545dcc51af0
+  - enabled: 1
+    path: Assets/Scenes/Rhino.unity
+    guid: 576cf313210a1544c96f3ece3d7b8394
+  - enabled: 1
+    path: Assets/Scenes/Evaluation.unity
+    guid: e405253a02aa03d449ab70d1cc4f2574
+  - enabled: 1
+    path: Assets/Scenes/Question.unity
+    guid: 7d77d153eb0280d4598a4231caf8645e
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d8633dee859b9be488c2a37eb100d883, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 7e0d1b844f10064438a759fee360ede5, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5bafdfce4ea7e304cad1ed1bf6ff5d72, type: 2}

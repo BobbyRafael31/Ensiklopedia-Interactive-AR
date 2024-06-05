@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6a3514fe2a8e294fba3e528730d64a0, type: 3}
+  m_Name: ElephantQuizData
+  m_EditorClassIdentifier: 
+  questions:
+  - {fileID: 11400000, guid: 78881ee8351d5b143b4cffca1c2d5132, type: 2}
+  - {fileID: 11400000, guid: 76c69c7a097bba5438bf32e27ba49e4d, type: 2}
+  - {fileID: 11400000, guid: 945565694c507764cb7898d7bd2a6cea, type: 2}
