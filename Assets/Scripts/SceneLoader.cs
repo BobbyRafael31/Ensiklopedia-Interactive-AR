@@ -39,7 +39,10 @@ public class SceneLoader : MonoBehaviour
     {
         LoadScene("Rhino");
     }
-
+    public void LoadAngelFishDetail()
+    {
+        LoadScene("Fish");
+    }
     public void ExitApp()
     {
         Application.Quit();
