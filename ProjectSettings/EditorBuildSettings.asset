@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Question.unity
     guid: 7d77d153eb0280d4598a4231caf8645e
+  - enabled: 1
+    path: Assets/Scenes/Video Ovovivipar.unity
+    guid: 5d28520574eb89341b280a095a6a0db3
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d8633dee859b9be488c2a37eb100d883, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 7e0d1b844f10064438a759fee360ede5, type: 2}
