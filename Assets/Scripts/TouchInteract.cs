@@ -17,11 +17,23 @@ public class TouchInteract : MonoBehaviour
     public float minScale = 0.1f;
     public float maxScale = 3.0f;
 
+    private bool isTouchingObject = false;
+
     void Update()
     {
         if (Input.touchCount == 1)
         {
-            HandleRotation();
+            Touch touch = Input.GetTouch(0);
+
+            if (touch.phase == TouchPhase.Began)
+            {
+                isTouchingObject = IsTouchingObject(touch.position);
+            }
+
+            if (isTouchingObject)
+            {
+                HandleRotation(touch);
+            }
         }
         else if (Input.touchCount == 2)
         {
@@ -29,7 +41,6 @@ public class TouchInteract : MonoBehaviour
         }
         else
         {
-
             if (!isRotating)
             {
                 ApplyInertia();
@@ -37,10 +48,22 @@ public class TouchInteract : MonoBehaviour
         }
     }
 
-    void HandleRotation()
+    bool IsTouchingObject(Vector2 touchPosition)
     {
-        Touch touch = Input.GetTouch(0);
+        Ray ray = Camera.main.ScreenPointToRay(touchPosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit))
+        {
+            if (hit.transform == transform)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 
+    void HandleRotation(Touch touch)
+    {
         if (touch.phase == TouchPhase.Moved)
         {
             isRotating = true;
@@ -67,6 +90,7 @@ public class TouchInteract : MonoBehaviour
         else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
         {
             isRotating = false;
+            isTouchingObject = false;
         }
     }
 
