@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Ular.unity
-    guid: 596ef7226aa4680479c8d9bef9bc7f47
+    path: Assets/Scenes/StartMenu.unity
+    guid: 8e434945de895044390968953d4dfdcc
   - enabled: 1
-    path: Assets/Scenes/Video Ovovivipar.unity
-    guid: 5d28520574eb89341b280a095a6a0db3
+    path: Assets/Scenes/EnsiklopediaMenu.unity
+    guid: 91c228b1a599b9242bba3c3e4496d76c
+  - enabled: 1
+    path: Assets/Scenes/DetailFlora.unity
+    guid: 9200171071d233c44b6ab18755bb332e
+  - enabled: 1
+    path: Assets/Scenes/DetailFauna.unity
+    guid: f5f2193467f66a6468a488829827fc2e
   m_configObjects: {}
