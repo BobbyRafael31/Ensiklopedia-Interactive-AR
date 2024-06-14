@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChanger : MonoBehaviour
+public class SceneChangerOvovivipar : MonoBehaviour
 {
     public void ChangeToScene(string sceneName)
     {
