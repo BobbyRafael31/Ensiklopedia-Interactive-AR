@@ -1,28 +1,39 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    void Start()
-    {
-        PlayerPrefs.SetString("PreviousScene", SceneManager.GetActiveScene().name);
-    }
+    public Animator transition;
+    public float transitionTime = 1f;
 
-    public void LoadScene(string sceneName)
+    IEnumerator LoadScene(string sceneName)
     {
-        PlayerPrefs.SetString("PreviousScene", SceneManager.GetActiveScene().name);
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(transitionTime);
 
         SceneManager.LoadScene(sceneName);
     }
 
     public void LoadARMenu()
     {
-        LoadScene("ARCamera");
+        StartCoroutine(LoadScene("ARCamera"));
     }
 
-    public void LoadMainMenu()
+    public void LoadEnsiklopediaMenu()
     {
-        LoadScene("EnsiklopediaMenu");
+        StartCoroutine(LoadScene("EnsiklopediaMenu"));
+    }
+
+    public void LoadDetailFlora()
+    {
+        StartCoroutine(LoadScene("DetailFlora"));
+    }
+
+    public void LoadDetailFauna()
+    {
+        StartCoroutine(LoadScene("DetailFauna"));
     }
 
     public void LoadElephantDetail()
