@@ -41,12 +41,20 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(LoadScene("ListFauna"));
     }
 
+    public void LoadListFlora()
+    {
+        StartCoroutine(LoadScene("ListFlora"));
+    }
+
     public void LoadElephantDetail()
     {
         StartCoroutine(LoadScene("Elephant"));
     }
 
-
+    public void LoadWolfDetail()
+    {
+        StartCoroutine(LoadScene("Wolf"));
+    }
 
     public void LoadViviparVideo()
     {

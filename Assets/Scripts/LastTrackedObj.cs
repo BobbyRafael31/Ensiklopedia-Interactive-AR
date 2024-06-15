@@ -52,6 +52,9 @@ public class LastTrackedObj : MonoBehaviour
                 case "elephant":
                     sceneLoader.StartCoroutine(sceneLoader.LoadScene("Elephant"));
                     break;
+                case "wolf":
+                    sceneLoader.StartCoroutine(sceneLoader.LoadScene("Wolf"));
+                    break;
                 case "rhino":
                     SceneManager.LoadScene("Rhino");
                     break;

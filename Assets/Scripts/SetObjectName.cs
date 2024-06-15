@@ -53,6 +53,9 @@ public class SetObjectName : MonoBehaviour
                 case "rhino":
                     uiText.text = "BADAK";
                     break;
+                case "wolf":
+                    uiText.text = "SERIGALA";
+                    break;
                 default:
                     uiText.text = "OBJECT NOT DETECTED!";
                     break;
