@@ -5,9 +5,11 @@ using Vuforia;
 public class LastTrackedObj : MonoBehaviour
 {
     public string lastTrackedObjectName;
+    private SceneLoader sceneLoader;
 
     void Start()
     {
+        sceneLoader = FindObjectOfType<SceneLoader>();
         ObserverBehaviour observerBehaviour = GetComponent<ObserverBehaviour>();
         if (observerBehaviour != null)
         {
@@ -48,7 +50,7 @@ public class LastTrackedObj : MonoBehaviour
                     SceneManager.LoadScene("Bird");
                     break;
                 case "elephant":
-                    SceneManager.LoadScene("Elephant");
+                    sceneLoader.StartCoroutine(sceneLoader.LoadScene("Elephant"));
                     break;
                 case "rhino":
                     SceneManager.LoadScene("Rhino");

@@ -7,7 +7,7 @@ public class SceneLoader : MonoBehaviour
     public Animator transition;
     public float transitionTime = 1f;
 
-    IEnumerator LoadScene(string sceneName)
+    public IEnumerator LoadScene(string sceneName)
     {
         transition.SetTrigger("Start");
 
@@ -36,9 +36,21 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(LoadScene("DetailFauna"));
     }
 
+    public void LoadListFauna()
+    {
+        StartCoroutine(LoadScene("ListFauna"));
+    }
+
     public void LoadElephantDetail()
     {
-        LoadScene("Elephant");
+        StartCoroutine(LoadScene("Elephant"));
+    }
+
+
+
+    public void LoadViviparVideo()
+    {
+        StartCoroutine(LoadScene("ViviparVideo"));
     }
 
     public void LoadBirdDetail()
