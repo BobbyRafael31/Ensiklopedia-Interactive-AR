@@ -51,6 +51,9 @@ public class SetObjectBiologyName : MonoBehaviour
                 case "elephant":
                     uiText.text = "(Elephantidae)";
                     break;
+                case "wolf":
+                    uiText.text = "(Canis Lupus)";
+                    break;
                 case "rhino":
                     uiText.text = "BADAK";
                     break;
