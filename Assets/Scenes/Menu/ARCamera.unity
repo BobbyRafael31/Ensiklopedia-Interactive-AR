@@ -925,45 +925,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe79375fbca251c4a981e4f7914ce1bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!21 &289712123
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI/RoundedCorners/RoundedCorners
-  m_Shader: {fileID: 4800000, guid: 0bd2ec5d73751e34a814274a454bec41, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _WidthHeightRadius: {r: 763.4245, g: 828.7721, b: 128, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &414248721
 GameObject:
   m_ObjectHideFlags: 0
@@ -1977,11 +1938,11 @@ PrefabInstance:
         , meskipun serigala abu-abu, seperti yang dipahami secara umum, hanya merupakan
         subspesies liar yang hidup secara alami.
 
-        
 
-        Serigala adalah
-        anggota keluarga Canidae terbesar yang masih ada , dan selanjutnya dibedakan
-        dari spesies Canis lainnya karena telinga dan moncongnya yang kurang runcing,
+
+        Serigala adalah anggota
+        keluarga Canidae terbesar yang masih ada , dan selanjutnya dibedakan dari
+        spesies Canis lainnya karena telinga dan moncongnya yang kurang runcing,
         serta batang tubuh yang lebih pendek dan ekor yang lebih panjang. '
       objectReference: {fileID: 0}
     - target: {fileID: 2413725472140015348, guid: 37ffbf7c7755fa146a8b8910f1d2098a, type: 3}
@@ -2451,18 +2412,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1650547064}
-        m_TargetAssemblyTypeName: ToggleAudioEffect, Assembly-CSharp
-        m_MethodName: setHapticAudio
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 620832044}
         m_TargetAssemblyTypeName: AnimalVisibility, Assembly-CSharp
         m_MethodName: HideCanvas
@@ -2862,6 +2811,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873868838}
   m_CullTransparentMesh: 1
+--- !u!21 &936745153
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI/RoundedCorners/RoundedCorners
+  m_Shader: {fileID: 4800000, guid: 0bd2ec5d73751e34a814274a454bec41, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _WidthHeightRadius: {r: 763.4245, g: 828.7721, b: 128, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1002872268
 GameObject:
   m_ObjectHideFlags: 0
@@ -3764,7 +3752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 1930746220}
+  m_Material: {fileID: 936745153}
   m_Color: {r: 0.21960784, g: 0.34901962, b: 0.007843138, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -3960,18 +3948,6 @@ MonoBehaviour:
       - m_Target: {fileID: 70424208}
         m_TargetAssemblyTypeName: AnimalVisibility, Assembly-CSharp
         m_MethodName: HideAnimal
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1650547064}
-        m_TargetAssemblyTypeName: ToggleAudioEffect, Assembly-CSharp
-        m_MethodName: setHapticAudio
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4349,7 +4325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 289712123}
+  m_Material: {fileID: 2055018488}
   m_Color: {r: 0.21960784, g: 0.34901962, b: 0.007843138, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -4553,8 +4529,8 @@ GameObject:
   - component: {fileID: 1650547060}
   - component: {fileID: 1650547059}
   - component: {fileID: 1650547058}
-  - component: {fileID: 1650547064}
   - component: {fileID: 1650547063}
+  - component: {fileID: 1650547064}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: MainCamera
@@ -4672,7 +4648,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c8d47e09da232d843a3f7dfaa4d9d89e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d7e01ea6dc631894782f4548710208db, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4977,45 +4953,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1496811493361560249, guid: 37ffbf7c7755fa146a8b8910f1d2098a, type: 3}
   m_PrefabInstance: {fileID: 3688137569074006813}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1930746220
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI/RoundedCorners/RoundedCorners
-  m_Shader: {fileID: 4800000, guid: 0bd2ec5d73751e34a814274a454bec41, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _WidthHeightRadius: {r: 763.4245, g: 828.7721, b: 128, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1948189444
 GameObject:
   m_ObjectHideFlags: 0
@@ -5182,6 +5119,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039179757}
   m_CullTransparentMesh: 1
+--- !u!21 &2055018488
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI/RoundedCorners/RoundedCorners
+  m_Shader: {fileID: 4800000, guid: 0bd2ec5d73751e34a814274a454bec41, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _WidthHeightRadius: {r: 763.4245, g: 828.7721, b: 128, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &2085867287
 GameObject:
   m_ObjectHideFlags: 0
