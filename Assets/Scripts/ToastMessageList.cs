@@ -5,6 +5,6 @@ public class ToastMessageList : MonoBehaviour
 {
     public void AudioIn3DObjectMessage()
     {
-        Show("Tap pada hewan 3D untuk mendengarkan suara hewan", 3, "info");
+        Show("Tap pada 3D Hewan untuk mendengarkan suara hewan", 3, "info");
     }
 }
