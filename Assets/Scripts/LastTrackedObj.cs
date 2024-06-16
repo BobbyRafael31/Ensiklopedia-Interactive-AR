@@ -64,6 +64,18 @@ public class LastTrackedObj : MonoBehaviour
                 case "snake":
                     sceneLoader.StartCoroutine(sceneLoader.LoadScene("Snake"));
                     break;
+                case "rose":
+                    sceneLoader.StartCoroutine(sceneLoader.LoadScene("Rose"));
+                    break;
+                case "sunflower":
+                    sceneLoader.StartCoroutine(sceneLoader.LoadScene("Sunflower"));
+                    break;
+                case "palm":
+                    sceneLoader.StartCoroutine(sceneLoader.LoadScene("Palm"));
+                    break;
+                case "banana":
+                    sceneLoader.StartCoroutine(sceneLoader.LoadScene("Banana"));
+                    break;
                 default:
                     Debug.LogWarning("No detail scene found for the tracked object: " + lastTrackedObjectName);
                     break;

@@ -39,6 +39,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Fauna/Snake.unity
     guid: 194daa3cb36a3c8428017de73d503c5c
   - enabled: 1
+    path: Assets/Scenes/Flora/Sunflower.unity
+    guid: 995df6b2f48f2bc4eab850c2475e703a
+  - enabled: 1
+    path: Assets/Scenes/Flora/Rose.unity
+    guid: 3a3c22cdc7e507440bc9ef88f6099486
+  - enabled: 1
+    path: Assets/Scenes/Flora/Palm.unity
+    guid: 8e3d2b7caab12a7408074f7243fe72d9
+  - enabled: 1
+    path: Assets/Scenes/Flora/Banana.unity
+    guid: 6406646783a463f49a5a491b10aa3ad9
+  - enabled: 1
     path: Assets/Scenes/Menu/ListFauna.unity
     guid: fe850ca3b1a678147aa2627aedea3fcd
   - enabled: 1
@@ -54,10 +66,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Video/OvoviviparVideo.unity
     guid: 4120c1d634868764d8f05870af783e96
   - enabled: 1
-    path: Assets/Scenes/Video/Monokotil.unity
+    path: Assets/Scenes/Video/MonokotilVideo.unity
     guid: 339d5a8870a58c1419efc0c8321db237
   - enabled: 1
-    path: Assets/Scenes/Video/Dikotil.unity
+    path: Assets/Scenes/Video/DikotilVideo.unity
     guid: fff41a395ff850346962a4148d97e4d7
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d8633dee859b9be488c2a37eb100d883, type: 2}
