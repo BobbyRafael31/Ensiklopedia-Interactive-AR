@@ -27,6 +27,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Fauna/Wolf.unity
     guid: bdebe6c3978df8a4d8fe4e0062488495
   - enabled: 1
+    path: Assets/Scenes/Fauna/Crocodile.unity
+    guid: e548be4f6db09a94d899b95f1bfb520b
+  - enabled: 1
+    path: Assets/Scenes/Fauna/Shark.unity
+    guid: f44bb568dbbc61d4bbd33aec7b47f4bc
+  - enabled: 1
+    path: Assets/Scenes/Fauna/AngelFish.unity
+    guid: aecf4a677f036b84584a02b29caef49f
+  - enabled: 1
+    path: Assets/Scenes/Fauna/Snake.unity
+    guid: 194daa3cb36a3c8428017de73d503c5c
+  - enabled: 1
     path: Assets/Scenes/Menu/ListFauna.unity
     guid: fe850ca3b1a678147aa2627aedea3fcd
   - enabled: 1
@@ -35,6 +47,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Video/ViviparVideo.unity
     guid: 88e88fdd43f65b94490d2fa5af7789b2
+  - enabled: 1
+    path: Assets/Scenes/Video/OviparVideo.unity
+    guid: c6946a9d715120a428897a305feddb63
+  - enabled: 1
+    path: Assets/Scenes/Video/OvoviviparVideo.unity
+    guid: 4120c1d634868764d8f05870af783e96
+  - enabled: 1
+    path: Assets/Scenes/Video/Monokotil.unity
+    guid: 339d5a8870a58c1419efc0c8321db237
+  - enabled: 1
+    path: Assets/Scenes/Video/Dikotil.unity
+    guid: fff41a395ff850346962a4148d97e4d7
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d8633dee859b9be488c2a37eb100d883, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 7e0d1b844f10064438a759fee360ede5, type: 2}
