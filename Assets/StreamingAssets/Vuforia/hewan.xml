@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="palm" size="1.000000 1.000000" />
+    <ImageTarget name="banana" size="1.000000 1.000000" />
+    <ImageTarget name="sunflower" size="1.000000 0.947754" />
+    <ImageTarget name="rose" size="1.000000 1.250000" />
     <ImageTarget name="snake" size="1.000000 0.560833" />
     <ImageTarget name="angelfish" size="1.000000 0.935059" />
     <ImageTarget name="shark" size="1.000000 1.000000" />

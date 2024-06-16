@@ -76,6 +76,26 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(LoadScene("Snake"));
     }
 
+    public void LoadRoseDetail()
+    {
+        StartCoroutine(LoadScene("Rose"));
+    }
+
+    public void LoadSunflowerDetail()
+    {
+        StartCoroutine(LoadScene("Sunflower"));
+    }
+
+    public void LoadPalmDetail()
+    {
+        StartCoroutine(LoadScene("Palm"));
+    }
+
+    public void LoadBananaDetail()
+    {
+        StartCoroutine(LoadScene("Banana"));
+    }
+
     public void LoadViviparVideo()
     {
         StartCoroutine(LoadScene("ViviparVideo"));
@@ -89,6 +109,16 @@ public class SceneLoader : MonoBehaviour
     public void LoadOvoviviparVideo()
     {
         StartCoroutine(LoadScene("OvoviviparVideo"));
+    }
+
+    public void LoadDikotilVideo()
+    {
+        StartCoroutine(LoadScene("DikotilVideo"));
+    }
+
+    public void LoadMonokotilVideo()
+    {
+        StartCoroutine(LoadScene("MonokotilVideo"));
     }
 
     public void ExitApp()

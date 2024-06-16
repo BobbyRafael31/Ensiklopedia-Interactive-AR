@@ -62,6 +62,18 @@ public class SetObjectName : MonoBehaviour
                 case "angelfish":
                     uiText.text = "ANGELFISH";
                     break;
+                case "rose":
+                    uiText.text = "BUNGA MAWAR";
+                    break;
+                case "sunflower":
+                    uiText.text = "BUNGA MATAHARI";
+                    break;
+                case "palm":
+                    uiText.text = "POHON PALEM";
+                    break;
+                case "banana":
+                    uiText.text = "POHON PISANG";
+                    break;
                 default:
                     uiText.text = "OBJECT NOT DETECTED!";
                     break;

@@ -63,6 +63,18 @@ public class SetObjectBiologyName : MonoBehaviour
                 case "snake":
                     uiText.text = "(Serpentes)";
                     break;
+                case "rose":
+                    uiText.text = "(Rosa)";
+                    break;
+                case "sunflower":
+                    uiText.text = "(Helianthus)";
+                    break;
+                case "palm":
+                    uiText.text = "(Arecaceae)";
+                    break;
+                case "banana":
+                    uiText.text = "(Musa)";
+                    break;
                 default:
                     uiText.text = "OBJECT NOT DETECTED!";
                     break;
