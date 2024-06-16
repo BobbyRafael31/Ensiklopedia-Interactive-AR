@@ -45,17 +45,23 @@ public class SetObjectBiologyName : MonoBehaviour
         {
             switch (targetName)
             {
-                case "bird":
-                    uiText.text = "BURUNG";
-                    break;
                 case "elephant":
                     uiText.text = "(Elephantidae)";
                     break;
                 case "wolf":
                     uiText.text = "(Canis Lupus)";
                     break;
-                case "rhino":
-                    uiText.text = "BADAK";
+                case "crocodile":
+                    uiText.text = "(Crocodylidae)";
+                    break;
+                case "shark":
+                    uiText.text = "(Selachimorpha)";
+                    break;
+                case "angelfish":
+                    uiText.text = "(Pomacanthus Imperator)";
+                    break;
+                case "snake":
+                    uiText.text = "(Serpentes)";
                     break;
                 default:
                     uiText.text = "OBJECT NOT DETECTED!";

@@ -56,24 +56,41 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(LoadScene("Wolf"));
     }
 
+    public void LoadCrocodileDetail()
+    {
+        StartCoroutine(LoadScene("Crocodile"));
+    }
+
+    public void LoadSharkDetail()
+    {
+        StartCoroutine(LoadScene("Shark"));
+    }
+
+    public void LoadAngelFishDetail()
+    {
+        StartCoroutine(LoadScene("AngelFish"));
+    }
+
+    public void LoadSnakeDetail()
+    {
+        StartCoroutine(LoadScene("Snake"));
+    }
+
     public void LoadViviparVideo()
     {
         StartCoroutine(LoadScene("ViviparVideo"));
     }
 
-    public void LoadBirdDetail()
+    public void LoadOviparVideo()
     {
-        LoadScene("Bird");
+        StartCoroutine(LoadScene("OviparVideo"));
     }
 
-    public void LoadRhinoDetail()
+    public void LoadOvoviviparVideo()
     {
-        LoadScene("Rhino");
+        StartCoroutine(LoadScene("OvoviviparVideo"));
     }
-    public void LoadAngelFishDetail()
-    {
-        LoadScene("Fish");
-    }
+
     public void ExitApp()
     {
         Application.Quit();

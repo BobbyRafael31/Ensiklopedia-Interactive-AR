@@ -46,17 +46,23 @@ public class LastTrackedObj : MonoBehaviour
         {
             switch (lastTrackedObjectName)
             {
-                case "bird":
-                    SceneManager.LoadScene("Bird");
-                    break;
                 case "elephant":
                     sceneLoader.StartCoroutine(sceneLoader.LoadScene("Elephant"));
                     break;
                 case "wolf":
                     sceneLoader.StartCoroutine(sceneLoader.LoadScene("Wolf"));
                     break;
-                case "rhino":
-                    SceneManager.LoadScene("Rhino");
+                case "crocodile":
+                    sceneLoader.StartCoroutine(sceneLoader.LoadScene("Crocodile"));
+                    break;
+                case "shark":
+                    sceneLoader.StartCoroutine(sceneLoader.LoadScene("Shark"));
+                    break;
+                case "angelfish":
+                    sceneLoader.StartCoroutine(sceneLoader.LoadScene("Angelfish"));
+                    break;
+                case "snake":
+                    sceneLoader.StartCoroutine(sceneLoader.LoadScene("Snake"));
                     break;
                 default:
                     Debug.LogWarning("No detail scene found for the tracked object: " + lastTrackedObjectName);

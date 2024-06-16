@@ -44,17 +44,23 @@ public class SetObjectName : MonoBehaviour
         {
             switch (targetName)
             {
-                case "bird":
-                    uiText.text = "BURUNG";
-                    break;
                 case "elephant":
                     uiText.text = "GAJAH";
                     break;
-                case "rhino":
-                    uiText.text = "BADAK";
+                case "crocodile":
+                    uiText.text = "BUAYA";
                     break;
                 case "wolf":
                     uiText.text = "SERIGALA";
+                    break;
+                case "shark":
+                    uiText.text = "HIU";
+                    break;
+                case "snake":
+                    uiText.text = "ULAR";
+                    break;
+                case "angelfish":
+                    uiText.text = "ANGELFISH";
                     break;
                 default:
                     uiText.text = "OBJECT NOT DETECTED!";
