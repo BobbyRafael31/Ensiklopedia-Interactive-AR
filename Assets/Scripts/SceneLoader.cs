@@ -16,6 +16,10 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    public void LoadStartMenu()
+    {
+        StartCoroutine(LoadScene("StartMenu"));
+    }
     public void LoadARMenu()
     {
         StartCoroutine(LoadScene("ARCamera"));
@@ -121,18 +125,14 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(LoadScene("MonokotilVideo"));
     }
 
+    public void LoadQuestionMenu()
+    {
+        StartCoroutine(LoadScene("Question"));
+    }
+
     public void ExitApp()
     {
         Application.Quit();
     }
 
-    public void LoadQuestionMenu()
-    {
-        LoadScene("Question");
-    }
-
-    public void LoadEvaluation()
-    {
-        LoadScene("Evaluation");
-    }
 }

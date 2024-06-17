@@ -9,6 +9,10 @@ public class QuizManager : MonoBehaviour
     public Button trueButton;
     public Button falseButton;
     public QuizData questionData;
+    public AudioClip correctSound;
+    public AudioClip wrongSound;
+    private AudioSource audioSource;
+
     private List<Question> questions;
     private int currentQuestionIndex = 0;
 
@@ -18,6 +22,7 @@ public class QuizManager : MonoBehaviour
         falseButton.onClick.AddListener(() => CheckAnswer(false));
         LoadQuestions();
         UpdateQuestion();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void LoadQuestions()
@@ -51,9 +56,22 @@ public class QuizManager : MonoBehaviour
         if (questions[currentQuestionIndex].isTrue == answer)
         {
             ScoreManager.AddScore(1);
+            PlaySound(correctSound);
+        }
+        else
+        {
+            PlaySound(wrongSound);
         }
 
         currentQuestionIndex++;
         UpdateQuestion();
+    }
+
+    void PlaySound(AudioClip clip)
+    {
+        if (clip != null)
+        {
+            audioSource.PlayOneShot(clip);
+        }
     }
 }

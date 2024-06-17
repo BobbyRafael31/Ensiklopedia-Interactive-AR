@@ -1287,6 +1287,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -98.164
       objectReference: {fileID: 0}
+    - target: {fileID: 4272131950368085553, guid: 664472e7e075af34b9f2d18aa86f2eb6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 143404370}
+    - target: {fileID: 4272131950368085553, guid: 664472e7e075af34b9f2d18aa86f2eb6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadQuestionMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 4938649241413305068, guid: 664472e7e075af34b9f2d18aa86f2eb6, type: 3}
       propertyPath: m_Name
       value: ButtonPengetahuan
