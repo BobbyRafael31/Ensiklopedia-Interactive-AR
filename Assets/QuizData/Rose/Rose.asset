@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6a3514fe2a8e294fba3e528730d64a0, type: 3}
+  m_Name: Rose
+  m_EditorClassIdentifier: 
+  questions:
+  - {fileID: 11400000, guid: 9b4e7f52eab688f429221f5ce7cd629e, type: 2}
+  - {fileID: 11400000, guid: 52a3e61417cdef348a0bc35e7dd1f316, type: 2}
+  - {fileID: 11400000, guid: 544fc7dbc60a86e4a9527baf684d6034, type: 2}
+  - {fileID: 11400000, guid: fb78afb4453463b41b8227d193887b37, type: 2}
+  - {fileID: 11400000, guid: 1600e459df567d147ad70ff4e0cac327, type: 2}

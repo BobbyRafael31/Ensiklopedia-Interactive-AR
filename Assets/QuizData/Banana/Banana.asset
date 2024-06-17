@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6a3514fe2a8e294fba3e528730d64a0, type: 3}
+  m_Name: Banana
+  m_EditorClassIdentifier: 
+  questions:
+  - {fileID: 11400000, guid: b0e046b3a2198b742a65fe65954b27bd, type: 2}
+  - {fileID: 11400000, guid: 66d3da5451c7fce48a69b49f74293c44, type: 2}
+  - {fileID: 11400000, guid: fb3fa899e066ae1458bfe53a70bbc8e4, type: 2}
+  - {fileID: 11400000, guid: 59fc8c69b77c99b41a647e408554eb1d, type: 2}
+  - {fileID: 11400000, guid: 3a87ed78f8b4873409155976c4c3d72d, type: 2}
