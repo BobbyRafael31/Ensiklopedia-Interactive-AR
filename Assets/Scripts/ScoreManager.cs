@@ -8,6 +8,7 @@ public class ScoreManager : MonoBehaviour
 
     void Start()
     {
+        ResetScore();
         UpdateScoreUI();
     }
 
@@ -29,5 +30,10 @@ public class ScoreManager : MonoBehaviour
     void UpdateScoreUI()
     {
         scoreText.text = totalScore.ToString();
+    }
+
+    void ResetScore()
+    {
+        totalScore = 0;
     }
 }
